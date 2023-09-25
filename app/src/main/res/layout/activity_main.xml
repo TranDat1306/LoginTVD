@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#10012C"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trang Đăng Nhập"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tên sinh viên: Đinh Ngọc Minh Châu Mã Sinh Viên: 21115053120308\nTrang đăng nhập theo dõi điểm rèn luyện dành cho sinh viên trường Đại học Sư Phạm Kĩ Thuật Đà Nẵng"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                app:backgroundTint="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button1"
+                android:text="TRUY CẬP TRANG CHỦ UTE"
+                android:textColor="#fff"
+                android:textSize="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button2"
+                android:text="RỜI KHỎI TRANG"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"
+                app:backgroundTint="@null" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="53dp"
+            android:drawableLeft="@drawable/baseline_perm_identity_24"
+            android:drawablePadding="10dp"
+            android:hint="Trần Văn Đạt"
+            android:textColor="#8F8E8E"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_lock_open_24"
+            android:drawablePadding="10dp"
+            android:hint="MẬT KHẨU"
+            android:inputType="textPassword"
+            android:textColor="#8F8E8E"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/chuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:drawableRight="@drawable/baseline_login_24"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</LinearLayout>
